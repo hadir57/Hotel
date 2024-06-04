@@ -1,0 +1,20 @@
+.container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .page-header {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .chart-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .chart-container > div {
+    flex: 1 1 45%;
+    margin: 20px;
+  }
